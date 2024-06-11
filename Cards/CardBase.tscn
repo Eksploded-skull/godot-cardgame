@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://djl2ubn1uc176"]
+
+[ext_resource type="Script" path="res://Cards/CardBase.gd" id="1_myjye"]
+[ext_resource type="Texture2D" uid="uid://c1cydhiqifuix" path="res://Assets/Cards/Bendik.png" id="2_mw05y"]
+[ext_resource type="Texture2D" uid="uid://c3fvqggn5texe" path="res://cardborder.png" id="3_ci0qt"]
+
+[node name="CardBase" type="MarginContainer"]
+offset_right = 201.0
+offset_bottom = 300.0
+script = ExtResource("1_myjye")
+
+[node name="Bendik" type="Sprite2D" parent="."]
+position = Vector2(101, 101)
+texture = ExtResource("2_mw05y")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+
+[node name="Cardborder" type="Sprite2D" parent="."]
+position = Vector2(101, 149)
+texture = ExtResource("3_ci0qt")

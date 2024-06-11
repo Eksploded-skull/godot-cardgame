@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://buhfda8gc7qho"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hmssu"]
+load_path = "res://.godot/imported/Bendik.png-37b2701cca83d860ba81c530ace8820a.ctex"
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Bendikcard" type="Sprite2D" parent="."]
+position = Vector2(-2, -2)
+texture = SubResource("CompressedTexture2D_hmssu")
